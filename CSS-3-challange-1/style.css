@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.card{
+    display: inline-block;
+    width: 263px;
+    height: auto;
+    border: 2px rgb(123, 123, 123) solid;
+    border-radius: 15px;
+    padding: 6px;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.card > .header > img {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    width: 240px;
+    border-radius: 15px;
+}
+
+.card > .header > button {
+    margin-top: -25px;
+    margin-bottom: 15px;
+    box-shadow: 0px 10px 20px rgb(138, 138, 138);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.card > .content > h3 {
+    font-weight: lighter;
+    color: rgb(50, 50, 50);
+}
+
+.card > .content > p {
+    margin: 15px 10px 0;
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+}
+
+.card > hr {
+    width: 225px;
+    margin: 15px auto;
+}
+
+.card > .footer > h3 {
+    float: left;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.card > .footer > i {
+    float: right;
+    margin-right: 12px;
+    margin-top: 5px;
+    border: 1px solid rgb(58, 58, 58);
+    color: rgb(58, 58, 58);
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 12px;
+}
